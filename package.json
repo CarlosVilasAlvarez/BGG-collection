@@ -1,0 +1,20 @@
+{
+  "name": "com.cvasoftware.refreshbgg",
+  "version": "1.0.0",
+  "description": "Small script written in javascript to save the list of games of a user in the bgg to a mongoDB database",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node ./src/index.js"
+  },
+  "keywords": [
+    "bgg",
+    "boardgames"
+  ],
+  "author": "Carlos Vilas Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.24"
+  }
+}
